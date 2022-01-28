@@ -47,7 +47,7 @@
 	  }
 	
 	:root {
-		--primary: #F47629;
+		--primary: #FF7149;
 	}
 	
 	body, html {
@@ -119,12 +119,12 @@
 		width: auto;
 		padding: 0 44px;
 		font-size: 18px;
-		font-family: "Roboto", sans-serif;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
 		display: inline-block;
 		position: relative;
+		font-weight: 700;
 	}
 
 	.button-solid:before {
