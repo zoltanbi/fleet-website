@@ -14,7 +14,7 @@
 	}
 
 	section {
-		padding: 50px 10px;
+		padding: 50px 0px;
 	}
 	
 	.wrapper {
@@ -362,7 +362,7 @@
 		transition: .3s ease;
 		position: relative;
 		z-index: 1000;
-		background: #777;
+		background: #fff;
 		border-bottom: 3px solid var(--primary);
 	}
 	
@@ -379,7 +379,6 @@
 				justify-content: center;
 		height: 100%;
 		z-index: 100;
-		background: #fff;
 	}
 	
 	.hamburger {

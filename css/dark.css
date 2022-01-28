@@ -119,6 +119,10 @@
     }
     
     /* Navigation */
+
+    body.dark-mode .mobile-wrapper {
+        background: var(--dark);
+    }
     
     .dark {
         display: none;
@@ -147,10 +151,6 @@
         -webkit-transition: .3s ease;
         -o-transition: .3s ease;
         transition: .3s ease;
-    }
-
-    body.dark-mode .hamburger-inner {
-        background: transparent;
     }
     
     body.dark-mode .hamburger.is-active .hamburger-inner::after,
