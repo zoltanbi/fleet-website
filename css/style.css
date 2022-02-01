@@ -59,6 +59,7 @@
         max-width: 400px;
         margin: auto;
         margin-top: 26px;
+        text-align: center;
     }
     
     .hero-content {
@@ -111,6 +112,9 @@
     
     .heroText .button-solid {
         margin-bottom: 10px;
+        margin-top: 30px;
+        width: auto;
+        display: inline-block;
     }
 
     .heroText .button-transparent {
@@ -765,6 +769,57 @@
         display: block;
         margin: 20px auto;
     }
+}
+
+@media only screen and (min-width: 48em) {
+    
+}
+
+@media only screen and (min-width: 64em) {
+    
+}
+@media only screen and (min-width: 1300px) {
+    
+}
+
+/*-- -------------------------- -->
+<---          Why Us            -->
+<--- -------------------------- -*/
+
+@media only screen and (min-width: 0em) {
+
+    #why-us .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #why-us .content {
+        order: 2;
+    }
+
+    #why-us .signature {
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    #why-us .title {
+        display: block;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    #why-us img {
+        order: 1;
+        display: block;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media only screen and (min-width: 48em) {
