@@ -83,6 +83,7 @@
 		line-height: 1.2em;
 		color: #292929;
 		margin-bottom: 30px;
+		font-weight: normal;
 	}
 
 	h2 {
@@ -874,7 +875,9 @@
 	}
 
 	#footer .item {
+		margin: auto;
 		margin-bottom: 80px;
+		max-width: 360px;
 	}
 
 	#footer .item .email {

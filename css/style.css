@@ -122,6 +122,25 @@
     }
 }
 
+@media only screen and (min-width: 400px) {
+
+    .heroText {
+        margin-top: 80px;
+    }
+
+    #home-h {
+        font-size: 36px;
+        line-height: 45px;
+        font-weight: normal;
+    }
+
+    .heroText h2 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     .heroText {
@@ -205,12 +224,72 @@
         position: absolute;
         z-index: 101;
         transform: rotate(-10deg);
-        top: -43px;
+        top: -32px;
         width: 600px;
         height: auto;
         display: block;
-        opacity: .1;
         left: -30px;
+        opacity: 1;
+    }
+
+    #cards .cls-1,
+    #cards .cls-2,
+    #cards .cls-3,
+    #cards .cls-4,
+    #cards .cls-5,
+    #cards .cls-6 {
+        animation-name: fade;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-delay: 0s;
+        animation-duration: 2.3s;
+        opacity: .2;
+    }
+
+    #cards .triangles .cls-1 {
+        animation-delay: .2s;
+        animation-duration: 2.73s;
+    }
+
+    #cards .triangles .cls-1:nth-of-type(2n+0) {
+        animation-delay: .17s;
+        animation-duration: 2.18s;
+    }
+
+    #cards .triangles .cls-2 {
+        animation-delay: .5s;
+        animation-duration: 2.73s;
+    }
+
+    #cards .triangles .cls-3 {
+        animation-delay: .1s;
+        animation-duration: 1.3s;
+    }
+
+    #cards .triangles .cls-3:nth-of-type(2n+0) {
+        animation-delay: .27s;
+        animation-duration: 2.38s;
+    }
+
+    #cards .triangles .cls-4 {
+        animation-delay: .5s;
+        animation-duration: 3.3s;
+    }
+
+    #cards .triangles .cls-4:nth-of-type(4n+0) {
+        animation-delay: 0s;
+        animation-duration: 3.1s;
+    }
+
+    #cards .triangles .cls-5 {
+        animation-delay: .32s;
+        animation-duration: 2.6s;
+    }
+
+    #cards .triangles .cls-6 {
+        animation-delay: .1s;
+        animation-duration: 2s;
     }
 
     #cards .container {
@@ -557,6 +636,114 @@
     }
 }
 
+@media only screen and (min-width: 400px) {
+
+    #services .symbol-group {
+        top: 50px;
+    }
+
+    #services .symbol-group .img1 {
+        right: 40%;
+        top: -10%;
+    }
+
+    #services .symbol-group .img2 {
+        left: 20%;
+        right: atuo;
+        top: -10%;
+    }
+
+    #services .symbol-group .img3 {
+        left: 78%;
+        top: 30%;
+    }
+
+    #services .symbol-group .img4 {
+        right: 15%;
+        left: auto;
+        top: -14%;
+    }
+
+    #services .symbol-group .img5 {
+        display: none;
+    }
+
+    #services .symbol-group .img6 {
+        display: none;
+    }
+
+    #services .symbol-group .img7 {
+        left: 111px;
+        top: 450px;
+        display: none;
+    }
+
+    #services .symbol-group .img8 {
+        left: 15%;
+        bottom: 90%;
+        display: none;
+    }
+
+    #services .symbol-group .img9 {
+        left: 25%;
+        right: auto;
+        bottom: 39%;
+    }
+
+    #services .symbol-group .img10 {
+        left: 79%;
+        top: 29%;
+        display: none;
+    }
+
+    #services .symbol-group .img11 {
+        right: 14%;
+        bottom: 1%;
+    }
+
+    #services .symbol-group .img12 {
+        left: 8%;
+        bottom: 40%;
+    }
+
+    #services .symbol-group .img13 {
+        right: 59%;
+        top: 10%;
+    }
+
+    #services .symbol-group .img14 {
+        left: 1%;
+        top: -26%;
+    }
+
+    #services .symbol-group .img15 {
+        left: 2%;
+        bottom: -5%;
+    }
+
+    #services .symbol-group .img16 {
+        right: 0%;
+        left: auto;
+        top: 20%;
+    }
+
+    #services .symbol-group .img17,
+    #services .symbol-group .img18 {
+        display: block;
+    }
+
+    #services .symbol-group .img17 {
+        right: 5%;
+        top: -35%;
+        display: none;
+    }
+
+    #services .symbol-group .img18 {
+        right: 30%;
+        top: 30%;
+    }
+}
+
 @media only screen and (min-width: 48em) {
     
 }
@@ -728,6 +915,13 @@
         display: none;
     }
 
+}
+
+@media only screen and (min-width: 375px) {
+
+    #portfolio .grid {
+        height: 550px;
+    }
 }
 
 @media only screen and (min-width: 48em) {
