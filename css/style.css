@@ -455,6 +455,22 @@
 
 @media only screen and (min-width: 48em) {
     
+    #about .lights {
+        width: 300px;
+        transform: none;
+        margin-left: -145px;
+        top: -500px;
+    }
+
+    #about .content {
+        padding-top: 200px;
+    }
+
+    #about .content h2 {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 64em) {
