@@ -58,7 +58,7 @@
     .heroText {
         max-width: 400px;
         margin: auto;
-        margin-top: 26px;
+        margin-top: 106px;
         text-align: center;
     }
     
@@ -85,6 +85,7 @@
         text-align: center;
         line-height: 1.5em;
         margin-bottom: 40px;
+        font-family: "Barlow", sans-serif;
     }
     
     #home-p {
@@ -336,6 +337,12 @@
 
 }
 
+@media only screen and (min-width: 568px) {
+    #cards .triangles {
+        top: -6px;
+    }
+}
+
 @media only screen and (min-width: 48em) {
     
 }
@@ -407,6 +414,15 @@
 
     #about .button-solid {
         margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+
+    .standard {
+        max-width: 568px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -744,6 +760,14 @@
     }
 }
 
+@media only screen and (min-width: 568px) {
+    #services .services {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media only screen and (min-width: 48em) {
     
 }
@@ -965,6 +989,13 @@
     }
 }
 
+@media only screen and (min-width: 568px) {
+
+    #reviews .card {
+        padding: 50px;
+    }
+}
+
 @media only screen and (min-width: 48em) {
     
 }
@@ -1014,6 +1045,15 @@
         margin-bottom: 50px;
     }
 
+}
+
+@media only screen and (min-width: 568px) {
+
+    #why-us img {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media only screen and (min-width: 48em) {
