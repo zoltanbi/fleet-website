@@ -486,6 +486,11 @@
         max-width: 100%;
     }
 
+	.mobile-wrapper img {
+		height: 78px;
+		margin-top: 50px;
+	}
+
     p {
         font-size: 1em;
     }
@@ -842,6 +847,9 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		margin-bottom: 50px;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#footer ul li {
