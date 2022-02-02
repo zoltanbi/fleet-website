@@ -547,7 +547,7 @@
 		display: block;
 		margin: 0 !important;
 		position: absolute;
-		left: 10px;
+		left: 0px;
 		height: auto;
         width: 317px;
 		top: 25px;
@@ -568,7 +568,8 @@
 	}
 
 	.navbar-menu {
-		width: 100%;
+		width: 96%;
+		max-width: 1200px;
 		min-height: 100px;
 		height: 153px;
 		margin: auto;
@@ -594,7 +595,7 @@
 
 	#on-top {
 		transform: translateY(7px);
-		margin-right: 30px;
+		margin-right: 20px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
