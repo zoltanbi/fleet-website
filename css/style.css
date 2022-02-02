@@ -87,6 +87,11 @@
         margin-bottom: 40px;
         font-family: "Barlow", sans-serif;
     }
+
+    .heroText h2 strong {
+        font-weight: bold;
+        color: var(--primary);
+    }
     
     #home-p {
         color: #fff;
@@ -144,13 +149,18 @@
 
 @media only screen and (min-width: 768px) {
 
+    #hero {
+        padding-bottom: 300px;
+    }
+
     .heroText {
-        margin-top: 100px;
+        margin-top: 200px;
         max-width: 570px;
     }
 
     #home-h {
-        font-size: 3em;
+        font-size: 58px;
+        line-height: 70px;
     }
 
     .heroText h2 {
@@ -345,6 +355,23 @@
 
 @media only screen and (min-width: 48em) {
     
+    #cards .container {
+        max-width: 670px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    #cards .card:nth-of-type(1),
+    #cards .card:nth-of-type(3) {
+        transform: translateY(30px);
+    }
+
+    #cards .card:nth-of-type(2),
+    #cards .card:nth-of-type(4) {
+        transform: translateY(-30px);
+    }
 }
 
 @media only screen and (min-width: 64em) {
