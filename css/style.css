@@ -813,6 +813,27 @@
 
 @media only screen and (min-width: 48em) {
     
+    #services {
+        max-width: 100%;
+        padding-top: 150px;
+    }
+
+    #services .symbol-group {
+        top: 100px;
+    }
+
+    #services .container {
+        max-width: 548px;
+    }
+
+    #services .services {
+        max-width: 548px;
+    }
+
+    #services .card {
+        width: 100%;
+
+    }
 }
 
 @media only screen and (min-width: 64em) {

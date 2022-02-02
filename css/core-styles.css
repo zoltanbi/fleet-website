@@ -91,7 +91,7 @@
 	}
 	
 	.container {
-		padding: 0 15px;
+		padding: 0 10px;
 		margin: auto;
 	}
 	
@@ -468,7 +468,7 @@
 @media screen and (min-width: 450px) and (max-width: 991px) {
 
     .container {
-        max-width: 900px;
+        max-width: 720px;
     }
 
     .mobile-nav {
