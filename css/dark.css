@@ -342,8 +342,8 @@
     .top-dark-mode-button {
         position: absolute;
         left: auto;
-        top: 65px;
-        right: 32px;
+        top: 71px;
+        right: 20px;
         z-index: 5000;
     }
 

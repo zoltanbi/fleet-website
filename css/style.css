@@ -153,6 +153,11 @@
         padding-bottom: 300px;
     }
 
+    #hero:before {
+        width: 3000px;
+        bottom: -120px;
+    }
+
     .heroText {
         margin-top: 200px;
         max-width: 570px;
@@ -355,6 +360,11 @@
 
 @media only screen and (min-width: 48em) {
     
+    #cards .triangles {
+        top: -60px;
+    }
+
+
     #cards .container {
         max-width: 670px;
         display: flex;
@@ -849,19 +859,14 @@
 
 @media only screen and (min-width: 0em) {
 
-    /* #portfolio .triangles {
-        position: absolute;
-        opacity: .2;
-        transform: rotate(191deg);
-        top: -356px;
-        z-index: -1;
-        right: -150px;
-    } */
+    #portfolio {
+        position: relative;
+    }
 
     #portfolio .triangles {
         position: absolute;
         transform: rotate(191deg);
-        top: -205px;
+        top: 305px;
         z-index: -2;
         right: -60px;
         width: 300px;
@@ -1007,17 +1012,39 @@
 
 @media only screen and (min-width: 375px) {
 
+    #portfolio .triangles {
+        top: 57px;
+        width: 700px;
+        right: -155px;
+    }
+
     #portfolio .grid {
         height: 550px;
     }
 }
 
 @media only screen and (min-width: 48em) {
+
+    #portfolio {
+        max-width: 100%;
+    }
     
     #portfolio .triangles {
-        width: 600px;
-        top: -400px;
-        right: -170px;
+        right: -50px;
+    }
+
+    #portfolio h2, #portfolio p {
+        width: 548px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #portfolio .grid:before {
+        width: 3000px;
+    }
+
+    #portfolio .grid:after {
+        width: 3000px;
     }
 
     #portfolio .grid {
