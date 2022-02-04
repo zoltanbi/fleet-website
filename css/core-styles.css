@@ -13,6 +13,15 @@
 		font-display: swap;
 	}
 
+	@font-face {
+		font-family: 'Barlow';
+		src: url('/fonts/Barlow-Regular.ttf') format('woff2'),
+			 url('/fonts/Barlow-Regular.ttf') format('woff');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+
 	section {
 		padding: 50px 0px;
 	}
@@ -147,10 +156,15 @@
 	}
 	
 	.button-solid:hover {
-		background: #cfa911;
+		background: #292929;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
+		color: #fff;
+	}
+
+	.button-solid:hover:before {
+		border: 2px solid #292929;
 	}
 	
 	button {
