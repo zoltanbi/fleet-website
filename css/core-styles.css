@@ -48,7 +48,12 @@
 	
 	:root {
 		/* --primary: #FF7149; */
-		--primary: #364D90
+		/* E33701 */
+		/* light blue 0089D7 */
+		/* 0177E3 */
+		/* orange E35201 */
+		--primary: #E35201;
+		/* --primary: #364D90; */
 	}
 	
 	body, html {

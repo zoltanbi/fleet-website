@@ -181,8 +181,14 @@
     #hero {
         padding-left: 0;
         padding-right: 0;
+        padding-top: 0;
         height: 1140px;
     }
+
+    #hero:before {
+        bottom: -132px;
+    }
+
     #hero .container {
         width: 96%;
         max-width: 1200px;
@@ -195,7 +201,7 @@
     }
 
     .heroText {
-        margin-top: 218px;
+        margin-top: 153px;
         margin-left: 0;
         max-width: 550px;
         text-align: left;
@@ -223,6 +229,7 @@
 
     .heroText .button-solid {
         margin: 0;
+        margin-left: 6px;
     }
 
     .heroText .button-transparent {
@@ -398,7 +405,31 @@
 
 @media only screen and (min-width: 64em) {
     
+    #cards .triangles {
+        width: 1315px;
+        top: -75px;
+    }
+
+    #cards .container {
+        width: 100%;
+        max-width: 100%;
+        margin-top: -432px;
+    }
+
+    #cards .card {
+        width: 24%;
+        padding: 50px 20px;
+    }
+
+    #cards .card:nth-of-type(1), #cards .card:nth-of-type(3) {
+        transform: translateY(96px);
+    }
+
+    #cards .card:nth-of-type(2), #cards .card:nth-of-type(4) {
+        transform: none;
+    }
 }
+
 @media only screen and (min-width: 1300px) {
     
 }
