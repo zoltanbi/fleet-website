@@ -1044,6 +1044,34 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    #services .services {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-top: 86px;
+    }
+
+    #services .card:nth-of-type(1),
+    #services .card:nth-of-type(3) {
+        height: 630px;
+        margin-top: 50px;
+        width: 300px;
+        display: block;
+    }
+
+    #services .card:nth-of-type(2) {
+        width: 380px;
+    }
+
+    #services .card:nth-child(2) .button-solid:hover {
+        background: var(--primary);
+        color: #fff;
+    }
+
+    #services .card:nth-child(2) .button-solid:hover:before {
+        border: 2px solid var(--primary)
+    }
     
 }
 @media only screen and (min-width: 1300px) {
@@ -1251,6 +1279,45 @@
 
 @media only screen and (min-width: 64em) {
     
+    #portfolio {
+        padding-top: 103px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #portfolio .triangles {
+        width: 1315px;
+        top: -564px;
+        right: -567px;
+        opacity: .5;
+    }
+
+    #portfolio .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        height: 704px;
+    }
+
+    #portfolio .item1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #portfolio .item3 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #portfolio .item5 {
+        display: block;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        background: url("../images/example5.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 @media only screen and (min-width: 1300px) {
     
@@ -1299,7 +1366,9 @@
 
 @media only screen and (min-width: 64em) {
     
+    
 }
+
 @media only screen and (min-width: 1300px) {
     
 }
