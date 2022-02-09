@@ -607,7 +607,7 @@
         top: -465px;
     }
 
-    .standard sub {
+    .standard .sub {
         font-size: 24px;
         line-height: 28px;
     }
@@ -1034,9 +1034,11 @@
     }
     
     #services h2 {
-        width: 680px;
+        width: 700px;
         margin-left: auto;
         margin-right: auto;
+        font-size: 48px;
+        line-height: 56px;
     }
 
     #services p {
@@ -1074,6 +1076,7 @@
     }
     
 }
+
 @media only screen and (min-width: 1300px) {
     
 }
@@ -1292,6 +1295,12 @@
         opacity: .5;
     }
 
+    #portfolio h2 {
+        font-size: 48px;
+        line-height: 56px;
+        width: 820px;
+    }
+
     #portfolio .grid {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -1319,6 +1328,7 @@
         background-repeat: no-repeat;
     }
 }
+
 @media only screen and (min-width: 1300px) {
     
 }
@@ -1366,7 +1376,85 @@
 
 @media only screen and (min-width: 64em) {
     
+    #reviews {
+        padding-top: 155px;
+        max-width: 100%;
+        position: relative;
+    }
+
+    #reviews .background {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -58%);
+        width: 1920px;
+        z-index: -10;
+        opacity: .02;
+    }
+
+    #reviews h2 {
+        width: 820px;
+        font-size: 48px;
+        line-height: 56px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #reviews p {
+        width: 610px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #reviews .reviews-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #reviews .card {
+        width: 50%;
+        max-width: 505px;
+        margin: 10px;
+        padding: 54px 58px 42px 58px;
+        background: #fff;
+    }
+
+    #reviews .card:nth-of-type(1),
+    #reviews .card:nth-of-type(3) {
+        margin-left: 0;
+    }
+
+    #reviews .card:nth-of-type(2),
+    #reviews .card:nth-of-type(4) {
+        margin-right: 0;
+    }
+
+    #reviews .card .name {
+        text-align: left;
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        font-family: 'Barlow-Bold';
+        font-size: 24px;
+    }
+
+    #reviews .card .name img  {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+    }
     
+    #reviews .card p {
+        width: 100%;
+        max-width: 391px;
+        text-align: left;
+        line-height: 19px;
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
