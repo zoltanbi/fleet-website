@@ -431,6 +431,7 @@
         top: -143px;
         pointer-events: none;
         z-index: 110;
+        opacity: .4;
     }
 
     #cards .container {
@@ -1387,7 +1388,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -58%);
+        transform: translate(-50%, -55%);
         width: 1920px;
         z-index: -10;
         opacity: .02;
@@ -1410,6 +1411,7 @@
     #reviews .reviews-box {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     #reviews .card {
@@ -1515,8 +1517,60 @@
 }
 
 @media only screen and (min-width: 64em) {
+
+    #why-us {
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #why-us .container {
+        width: 100%;
+        max-width: 1094px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
     
+    #why-us .content {
+        width: 503px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: 0;
+        padding-top: 0;
+        order: 1;
+        margin-left: 0;
+    }
+
+    #why-us h2 {
+        margin-bottom: 40px;
+    }
+
+    #why-us .content p {
+        font-size: 16px;
+        line-height: 19px;
+        width: 525px;
+    }
+
+    #why-us .signature {
+        text-align: left;
+    }
+
+    #why-us .title {
+        text-align: left;
+    }
+
+    #why-us img {
+        order: 2;
+        max-width: 500px;
+        margin: 0;
+    }
+
 }
+
 @media only screen and (min-width: 1300px) {
     
 }
@@ -1536,6 +1590,7 @@
 @media only screen and (min-width: 64em) {
     
 }
+
 @media only screen and (min-width: 1300px) {
     
 }
