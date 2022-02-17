@@ -1030,12 +1030,125 @@
 /* Tablet */
 @media only screen and (min-width: 768px) {
 
+	#footer:before {
+		width: 3000px;
+	}
 
 }
 
 /* Small Desktop */
 @media only screen and (min-width: 1024px) {
 
+	#footer {
+		margin-top: 300px;
+        padding-bottom: 96px;
+        padding-top: 0;
+	}
+
+	#footer:before {
+		height: 400px;
+		top: -120px;
+	}
+
+    #footer .fleetworks-icon {
+        width: 102px;
+        height: 102px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 10px;
+        top: -53px;
+        transform: none;
+    }
+
+    #footer .fleetworks-icon img {
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+
+	#footer ul {
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		margin-right: 0;
+		max-width: 100%;
+		margin-bottom: 90px;
+	}
+
+	#footer ul li {
+		width: auto;
+		margin: 0 20px;
+	}
+
+	#footer ul li:last-child {
+		margin-right: 0;
+	}
+    
+    #footer ul li a:hover {
+        text-decoration: underline;
+    }
+
+	#footer .content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	#footer .item {
+		width: 450px;
+		margin: 0;
+		text-align: left;
+	}
+
+	#footer .item .email {
+		font-size: 24px;
+	}
+
+    #footer .item .email:hover {
+        color: var(--primary);
+    }
+
+	#footer .item p {
+		line-height: 19px;
+	}
+
+	#footer .item:nth-of-type(2) {
+		margin-left: 15%;
+	}
+
+    #footer .credit {
+        margin-top: 125px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+	#footer .credit p {
+		font-size: 14px;
+	}
+
+	#footer .credit a {
+		display: inline-block;
+		font-size: 14px;
+		line-height: 17px;
+		font-family: 'Barlow-Bold';
+	}
+
+    #footer .credit .social {
+        margin: 0;
+    }
+
+    #footer .credit .social a {
+        margin-top: 2px;
+        transition: .3s ease;
+    }
+
+    #footer .credit .social a:hover {
+        transform: scale(1.1);
+        transition: .3s ease;
+    }
 
 }
 
